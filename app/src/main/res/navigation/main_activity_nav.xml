@@ -39,4 +39,9 @@
             android:name="urun"
             app:argType="com.menesince.navigationcomponentandfragment.Urunler" />
     </fragment>
+    <fragment
+        android:id="@+id/ayarlarFragment"
+        android:name="com.menesince.navigationcomponentandfragment.AyarlarFragment"
+        android:label="fragment_ayarlar"
+        tools:layout="@layout/fragment_ayarlar" />
 </navigation>
